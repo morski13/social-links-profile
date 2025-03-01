@@ -37,6 +37,11 @@ body{
     object-fit: cover; /* Da se lepo uklopi u krug */
 }
 
+.name-location{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
 
 .jessicarandall{
     font-size: large;
