@@ -22,7 +22,7 @@ body{
 .profile-picture{
     width: 5rem;
     height: 5rem;
-    border-radius: 100%;
+    border-radius: round(5px);
 }
 
 .jessicarandall{
