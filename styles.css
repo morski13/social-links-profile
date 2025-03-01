@@ -18,13 +18,13 @@ body{
     flex-direction: column;
     gap: 10px;
     width: 15rem;
-    
+
 }
 
-.profile-picture{
+.profile-picture-container{
     width: 5rem;
     height: 5rem;
-    border-radius: round(5px);
+    border-radius: 50px;
 }
 
 .jessicarandall{
