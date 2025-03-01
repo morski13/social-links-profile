@@ -1,0 +1,42 @@
+body{
+    background-color: hsl(0, 0%, 8%) ;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.profile-card{
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.jessicarandall{
+    font-size: large;
+    color: hsl(0, 0%, 100%);
+}
+
+.location{
+    color: hsl(75, 94%, 57%);
+    font-size: small;;
+}
+
+.bio{
+    color: hsl(0, 0%, 100%);
+    font-size: small;;
+}
+.social-btn{
+    background-color: hsl(0, 0%, 20%);
+    font-size: medium;
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.social-btn:active{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
