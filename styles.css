@@ -16,7 +16,7 @@ body{
     justify-content: center;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 1rem;
     width: 15rem;
 
 }
