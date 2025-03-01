@@ -16,14 +16,14 @@ body{
     justify-content: center;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 3rem;
     width: 15rem;
 
 }
 
 .profile-picture-container {
-    width: 3rem; /* Manja slika */
-    height: 3rem;
+    width: 4rem; /* Manja slika */
+    height: 4rem;
     border-radius: 50%; /* Savršen krug */
     overflow: hidden; /* Ako koristiš <img> unutra da slika ne štrči */
     display: flex;
