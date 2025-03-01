@@ -17,6 +17,8 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 15rem;
+    
 }
 
 .profile-picture{
@@ -33,13 +35,13 @@ body{
 
 .location{
     color: hsl(75, 94%, 57%);
-    font-size: small;
+    font-size: smaller;
     font-weight: 700;
 }
 
 .bio{
     color: hsl(0, 0%, 100%);
-    font-size: small;
+    font-size: smaller;
     font-weight: 400;
 }
 .social-btn{
