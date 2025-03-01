@@ -21,11 +21,22 @@ body{
 
 }
 
-.profile-picture-container{
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50px;
+.profile-picture-container {
+    width: 3rem; /* Manja slika */
+    height: 3rem;
+    border-radius: 50%; /* Savršen krug */
+    overflow: hidden; /* Ako koristiš <img> unutra da slika ne štrči */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.profile-picture-container img {
+    width: 100%; /* Da slika popuni kontejner */
+    height: 100%;
+    object-fit: cover; /* Da se lepo uklopi u krug */
+}
+
 
 .jessicarandall{
     font-size: large;
